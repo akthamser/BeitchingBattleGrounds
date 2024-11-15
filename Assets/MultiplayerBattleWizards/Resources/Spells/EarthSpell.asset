@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5dcbb7a03bef640a34014cdc44275e, type: 3}
+  m_Name: EarthSpell
+  m_EditorClassIdentifier: 
+  spellName: Earth Spell
+  castType: 0
+  icon: {fileID: 21300004, guid: 2595e7e2d5528924094900e20fe60d3d, type: 3}
+  cooldown: 1.5
+  castSfx: {fileID: 8300000, guid: 1402554a9340acf488f037257423e75b, type: 3}
+  projectilePrefab: {fileID: 1718718991795824, guid: 24277b1f6ba30d445a1c59c498c3a46b,
+    type: 3}
+  projectileSpeed: 7
+  projectileDrop: 0.11
+  projectileVelocityAffectorType: 0
+  projectileVelocityAffectorIntensity: 0
+  onSelfCast:
+    doHealCaster: 0
+    healthToCaster: 0
+    doDamageNearby: 0
+    nearbyDamageRange: 0
+    nearbyDamage: 0
+    doStunNearby: 0
+    nearbyStunRange: 0
+    nearbyStunDuration: 0
+    doTeleport: 0
+    teleportType: 0
+    doSpawnObject: 0
+    objectToSpawn: {fileID: 0}
+    objectToSpawnDestroyTime: 0
+  onHitTarget:
+    doDamage: 1
+    damage: 3
+    doStun: 1
+    stunDuration: 1
+    doSpawnObject: 0
+    objectToSpawn: {fileID: 0}
+    objectToSpawnDestroyTime: 0
+    doHealCaster: 0
+    healthToCaster: 0
+    goThroughTiles: 0

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5dcbb7a03bef640a34014cdc44275e, type: 3}
+  m_Name: RedSpell
+  m_EditorClassIdentifier: 
+  spellName: Red Spell
+  castType: 0
+  icon: {fileID: 21300006, guid: 2595e7e2d5528924094900e20fe60d3d, type: 3}
+  cooldown: 0.8
+  castSfx: {fileID: 8300000, guid: e8e36c7245990b44dae81ee595620c36, type: 3}
+  projectilePrefab: {fileID: 1718718991795824, guid: fa946d26938f7b64993f1ff607b35231,
+    type: 3}
+  projectileSpeed: 10
+  projectileDrop: 0
+  projectileVelocityAffectorType: 0
+  projectileVelocityAffectorIntensity: 0
+  onSelfCast:
+    doHealCaster: 0
+    healthToCaster: 0
+    doDamageNearby: 0
+    nearbyDamageRange: 0
+    nearbyDamage: 0
+    doStunNearby: 0
+    nearbyStunRange: 0
+    nearbyStunDuration: 0
+    doTeleport: 0
+    teleportType: 0
+    doSpawnObject: 0
+    objectToSpawn: {fileID: 0}
+    objectToSpawnDestroyTime: 0
+  onHitTarget:
+    doDamage: 1
+    damage: 2
+    doStun: 0
+    stunDuration: 0
+    doSpawnObject: 1
+    objectToSpawn: {fileID: 1719968475527984, guid: 0e852d5d39961084f8dbf1957b241383,
+      type: 3}
+    objectToSpawnDestroyTime: 1
+    doHealCaster: 0
+    healthToCaster: 0
+    goThroughTiles: 0

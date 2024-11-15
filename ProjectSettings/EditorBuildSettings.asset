@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/MultiplayerBattleWizards/Scenes/Menu.unity
+    guid: 732dea1848491324f8c2f05f844c0a5a
+  - enabled: 1
+    path: Assets/MultiplayerBattleWizards/Scenes/Game.unity
+    guid: 7d7cd413ae033f04188f7b9cdabdb790
+  - enabled: 1
+    path: Assets/MultiplayerBattleWizards/Scenes/MapEditor 1.unity
+    guid: 382808c5b88d0384e96b2949d1f0a9a0
+  m_configObjects: {}

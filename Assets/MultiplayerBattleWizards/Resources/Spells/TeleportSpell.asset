@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5dcbb7a03bef640a34014cdc44275e, type: 3}
+  m_Name: TeleportSpell
+  m_EditorClassIdentifier: 
+  spellName: Teleport Spell
+  castType: 1
+  icon: {fileID: 21300000, guid: 2595e7e2d5528924094900e20fe60d3d, type: 3}
+  cooldown: 2.5
+  castSfx: {fileID: 8300000, guid: f363ee2ce63538c408cad1aa665827ee, type: 3}
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  projectileDrop: 0
+  projectileVelocityAffectorType: 0
+  projectileVelocityAffectorIntensity: 0
+  onSelfCast:
+    doHealCaster: 0
+    healthToCaster: 1
+    doDamageNearby: 1
+    nearbyDamageRange: 2
+    nearbyDamage: 1
+    doStunNearby: 0
+    nearbyStunRange: 0
+    nearbyStunDuration: 0
+    doTeleport: 1
+    teleportType: 0
+    doSpawnObject: 0
+    objectToSpawn: {fileID: 0}
+    objectToSpawnDestroyTime: 0
+  onHitTarget:
+    doDamage: 0
+    damage: 0
+    doStun: 0
+    stunDuration: 0
+    doSpawnObject: 0
+    objectToSpawn: {fileID: 0}
+    objectToSpawnDestroyTime: 0
+    doHealCaster: 0
+    healthToCaster: 0
+    goThroughTiles: 0

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5dcbb7a03bef640a34014cdc44275e, type: 3}
+  m_Name: GreenSpell
+  m_EditorClassIdentifier: 
+  spellName: Green Spell
+  castType: 0
+  icon: {fileID: 21300002, guid: 2595e7e2d5528924094900e20fe60d3d, type: 3}
+  cooldown: 0.5
+  castSfx: {fileID: 8300000, guid: 1402554a9340acf488f037257423e75b, type: 3}
+  projectilePrefab: {fileID: 1829039971058024, guid: 177994a8b99c2324f880a83b907b2c31,
+    type: 3}
+  projectileSpeed: 8
+  projectileDrop: 0
+  projectileVelocityAffectorType: 1
+  projectileVelocityAffectorIntensity: 10
+  onSelfCast:
+    doHealCaster: 0
+    healthToCaster: 0
+    doDamageNearby: 0
+    nearbyDamageRange: 0
+    nearbyDamage: 0
+    doStunNearby: 0
+    nearbyStunRange: 0
+    nearbyStunDuration: 0
+    doTeleport: 0
+    teleportType: 0
+    doSpawnObject: 0
+    objectToSpawn: {fileID: 0}
+    objectToSpawnDestroyTime: 0
+  onHitTarget:
+    doDamage: 1
+    damage: 1
+    doStun: 0
+    stunDuration: 0
+    doSpawnObject: 1
+    objectToSpawn: {fileID: 1194766963384488, guid: 6460b23dec6b0b84ebf2acf270b7aa42,
+      type: 3}
+    objectToSpawnDestroyTime: 1
+    doHealCaster: 0
+    healthToCaster: 0
+    goThroughTiles: 1
